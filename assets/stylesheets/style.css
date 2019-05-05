@@ -1,0 +1,70 @@
+.header {
+	background-image: url("file:///Users/faridapongsamart/Desktop/laurendaigle/assets/images/nav-bg.jpg");
+	background-repeat: repeat-x;
+	height: 103px;
+	/* margin-top: 42px; */
+	padding-top: 22px;
+}
+.header ul{
+  margin: 0px;
+  padding: 0px;
+  margin-left: 5%;
+}
+.header ul li{
+  display: inline-block;
+}
+.navbar-nav li a{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3vw;
+}
+.navbar-nav li.active a{
+  padding-bottom: 0px;
+}
+.main_section{
+  background-color: #d2cdc9;
+}
+.main_section img,
+.navbar,
+.footer{
+  width: 80%;
+  margin: auto;
+}
+.footer{
+  margin-top: 10px;
+}
+.navbar-inverse{
+  background: none;
+  border: none;
+}
+.navbar-brand img{
+  width: 55%;
+}
+.mobile-menu{
+  display: none;
+  margin-top: 22px;
+}
+@media only screen and (max-width: 766px) {
+  .desktop-menu{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+  }
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  background-color: black;
+}
+.caption-slider {
+	background-color: #f0343480;
+	width: 80%;
+	margin: auto;
+	padding: 5px;
+}
+.caption-slider p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 3.5vw;
+  text-align: center;
+}
+.footer{
+  font-family: 'Roboto Condensed', sans-serif;
+}
