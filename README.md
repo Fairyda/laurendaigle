@@ -1,2 +1,2 @@
-# laurendaigle
-Temporary Website Progress.
+# Lauren Daigle
+This is a Lauren Daigle Website.
