@@ -6,6 +6,8 @@ $(function () {
         $('.popup.show').removeClass('show');
     })
     $('.filter-menu .menu-item').click(function () {
+
+        $(".conditional").attr("style", "display: block");
         //$('.activeFilter').removeClass('activeFilter');
         // alert($(this).hasClass('activeFilter'))
         var $th = $(this);
@@ -55,9 +57,9 @@ $(function () {
                 $('.product-container.thumb').each(function () {
                     var cats = $(this).attr('data-cats');
                     if (cats.includes(dataFilter)) {
-                        $(this).parent().hide();
+                        $(this).parent().addClass("only-visible");
                     } else {
-                        // $(this).hide();
+                        $(this).parent().addClass("all-hidden");
                     }
 
                 });
