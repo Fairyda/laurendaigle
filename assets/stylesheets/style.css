@@ -312,9 +312,18 @@ table.table.table-hover td {
 }
 
 .activeFilter {
-    background: url(../../assets/images/checkmark.png) no-repeat #d68745 !important;
+    background-color: #d68745 !important;
+    /* background: url(../../assets/images/checkmark.png) no-repeat #d68745 !important; */
     background-size: 20px !important;
     background-position: 98% 7px !important;
+}
+.conditional{
+  display: none;
+  background-color: red !important;
+  color: white !important;
+}
+.conditional:hover{
+  text-decoration: none;
 }
 
 .product-container {
@@ -448,6 +457,14 @@ img {
 .col-1 > div {
     width: 100%;
     text-align: center;
+}
+
+/* Additional Modifications */
+.all-hidden{
+  display: none !important;
+}
+.only-visible{
+  display: block !important;
 }
 
 @media only screen and (max-width: 766px) {
